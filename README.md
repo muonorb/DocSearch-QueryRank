@@ -13,7 +13,7 @@ This project implements an **Information Retrieval System** that indexes a colle
 
 ## 📂 Repository Structure
 ```
-docsearch-queryrank/
+DocSearch-QueryRank/
 │── datasets/                 # Contains dataset files
 │   ├── cran.all.1400.xml     # Collection of documents
 │   ├── cran.qry.xml          # Queries for retrieval
@@ -21,7 +21,7 @@ docsearch-queryrank/
 │   ├── cran_all.csv          # Processed documents
 │   ├── cran_query.csv        # Processed queries
 │── src/                      # Source code
-│   ├── search_engine.py      # Main search engine script
+│   ├── main.py               # Main script
 │   ├── xmltocsv.py           # XML to CSV conversion script
 │── results/                  # Stores search results
 │   ├── VSM_output.txt        # VSM ranking output
@@ -30,6 +30,13 @@ docsearch-queryrank/
 │── README.md                 # Project documentation
 │── requirements.txt          # Dependencies
 ```
+📂 Dataset
+
+The dataset used in this project is the Cranfield Collection, which consists of 1,400 aerodynamics abstracts. You can download it from the following link:
+
+🔗 Cranfield TREC Dataset
+
+After downloading, place the dataset files inside the datasets/ directory in your project.
 
 ## 🛠 Installation & Setup
 1. **Clone the repository:**
