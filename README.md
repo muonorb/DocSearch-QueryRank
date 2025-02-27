@@ -34,7 +34,7 @@ DocSearch-QueryRank/
 
 The dataset used in this project is the Cranfield Collection, which consists of 1,400 aerodynamics abstracts. You can download it from the following link:
 
-🔗 Cranfield TREC Dataset
+🔗 [Cranfield TREC Dataset](https://github.com/oussbenk/cranfield-trec-dataset)
 
 After downloading, place the dataset files inside the datasets/ directory in your project.
 
@@ -80,7 +80,9 @@ git clone https://github.com/usnistgov/trec_eval.git
 cd trec_eval
 make CC=clang
 make CC=gcc
+../trec_eval -m all_trec cranqrel.trec.txt VSM_output.txt
 ../trec_eval -m all_trec cranqrel.trec.txt BM25_output.txt
+../trec_eval -m all_trec cranqrel.trec.txt LM_output.txt
 ```
 
 
