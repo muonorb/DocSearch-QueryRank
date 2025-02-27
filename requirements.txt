@@ -1,0 +1,9 @@
+pandas
+numpy
+regex
+rank_bm25
+sklearn
+python-csv
+python-math
+collection
+xml-python
